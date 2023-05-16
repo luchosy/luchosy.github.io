@@ -27,7 +27,15 @@
             p {
                 color: white;  
             }
+            #pitchdeckbox{
+                text-align: center;
+            }
             #pitchdeck {
+                display: inline-block;
+                margin: auto;
+            }
+            #pitchvideo {
+                display: inline-block;
                 margin: auto;
             }
         </style>
@@ -39,9 +47,11 @@
         <div>
             <h3>Zero-G, Zero-Effort</h3>
         </div>
-        <iframe id="pitchdeck" src="https://drive.google.com/file/d/1Ru2lEubPwnmJCF9aYyEA2ZxsnC4EMyvI/preview" width="853" height="640" allow="autoplay"></iframe>
-        <br>
-        <video src="hypereel.mov" controls width="853"></video>
+        <div id="pitchdeckbox">
+            <iframe id="pitchdeck" src="https://drive.google.com/file/d/1Ru2lEubPwnmJCF9aYyEA2ZxsnC4EMyvI/preview" width="853" height="640" allow="autoplay"></iframe>
+            <br>
+            <video id="pitchvideo" src="hypereel.mov" controls width="853"></video>
+        </div>
         <br>
         <p>
             We know this site isn't pretty yet, but it will be soon!
